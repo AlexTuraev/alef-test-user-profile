@@ -1,0 +1,9 @@
+@import '../../styles/main.scss';
+
+.app{
+    position: relative;
+    width: 1366px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: $white;
+}

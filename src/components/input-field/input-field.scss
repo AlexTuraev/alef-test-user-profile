@@ -1,0 +1,15 @@
+.input-field{
+    margin-bottom: 10px;
+
+    &__label{
+        font: 400 13px 'Montserrat', sans-serif;
+        color: rgba(17, 17, 17, 0.48);
+    }
+
+    &__input{
+        font: 400 13px 'Montserrat', sans-serif;
+        color: #111111;
+        border: none;
+        padding: 2px;
+    }
+}

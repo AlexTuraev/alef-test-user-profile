@@ -1,0 +1,13 @@
+@import '../../styles/main.scss';
+
+.child-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__delete{
+        font: 400 14px 'Montserrat', sans-serif;
+        color: $primary;
+        cursor: pointer;
+    }
+}

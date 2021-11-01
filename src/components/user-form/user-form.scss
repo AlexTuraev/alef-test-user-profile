@@ -1,0 +1,40 @@
+@import '../../styles/main.scss';
+
+.user-form{
+ 
+    &__header{
+        font: 500 16px/24px 'Montserrat', sans-serif;
+    }
+
+    &__user-data{
+        margin-left: 16px;
+    }
+
+    &__child-header{
+        margin-top: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__child-data{
+        margin-left: 16px;
+        list-style-type: none;
+    }
+    
+    &__add-btn{
+        width: 204px;
+        height: 44px;
+        border-radius: 100px;
+    }
+
+    &__plus{
+        font-size: 24px;
+        margin-right: 5px;
+    }
+
+    &__btn-text{
+        font: 400 14px 'Montserrat', sans-serif;
+    }
+
+}

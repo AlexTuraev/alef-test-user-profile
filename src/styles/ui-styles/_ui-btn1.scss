@@ -1,0 +1,44 @@
+.ui-btn1{
+    border: 2px solid $primary;
+    box-sizing: border-box;
+    background-color: $white;
+    color: $primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $hover1-color;
+    }
+    &:active{
+        background-color: $active1-color;
+    }
+    &:focus{
+        border: 2px solid $focus1-color;
+    }
+
+    &--filled{
+        background-color: $primary;
+        color: $white;
+        border: none;
+    }
+
+    &--filled:hover{
+        background-color: $hover2-color;
+    }
+    &--filled:active{
+        background-color: $active2-color;
+    }
+    &--filled:focus{
+        border: 2px solid $focus2-color;
+    }
+
+    &--disabled,
+    &--disabled:hover,
+    &--disabled:active,
+    &--disabled:focus{
+        background-color: $primary-disabled;
+        border: none;
+    }
+}

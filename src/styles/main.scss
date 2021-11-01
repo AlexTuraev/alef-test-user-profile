@@ -1,0 +1,9 @@
+@import './reset.scss';
+@import './variables.scss';
+
+@import './ui-styles/ui-btn1';
+@import './ui-styles/ui-container';
+
+html{
+    background-color: $lightgrey;
+}
